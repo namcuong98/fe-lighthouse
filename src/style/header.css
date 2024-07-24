@@ -1,0 +1,264 @@
+/* BASE CSS */
+:root {
+    --border-color: #E5E8EC;
+    --text-defautl: #FFFFFF;
+    --text-bold: #212529;
+    --red-primary: #DD3842;
+    --font-text-xs: 11px;
+    --font-text-sm: 12px;
+    --font-text-defalult: 13px;
+    --font-text-l: 14px;
+    --font-text-xl: 15px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  
+  .app {
+    margin: 0 auto;
+  }
+  
+  
+  /* HEADER CSS */
+  
+  .wrap-container {
+    width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .boder-bottom {
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .hr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    width: 1410px;
+  }  
+
+  .container-header-second {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 12px 0;
+    width: 1410px;
+  }
+
+  .header-first-right {
+    font-size: var(--font-text-l);
+    font-weight: 500;
+  }
+  
+  .menu-item-top {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .header-first-option {
+    padding-left: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-arrow {
+    font-size: var(--font-text-sm);
+    height: 100%;
+  }
+  
+  .hr-left {
+    border-left: 1px solid var(--border-color);
+    height: var(--font-text-l);
+  }
+  
+  .header-first-distance {
+    margin-right: 2px;
+    font-size: var(--font-text-defalult);
+    /* font-family: Bai Jamjuree; */
+    font-weight: 500;
+    line-height: 16.25px;
+  }
+
+  .link-students {
+    font-size: var(--font-text-defalult);
+    font-weight: 600;
+    color: var(--text-bold);
+  }
+
+  .header-second {
+    margin: 8px 0;
+  }
+  
+  .wrap-search {
+    padding: 12px 20px;
+    border-left: 2px solid #E5E8EC;
+    border-top: 2px solid #E5E8EC;
+    border-bottom: 2px solid #E5E8EC;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 600px;
+  }
+
+  .input-search {
+    width: 390px;
+  }
+  
+  .button-search {
+    font-size: 14px;
+    height: 46px;
+    width: 100px;
+    border: 1px solid #2B38D1;
+    background-color: #2B38D1;
+    color: var(--text-defautl);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+  }
+
+  .text-category {
+    font-size: clamp(6px,4vh,14px);
+  }
+  
+  .search-category {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .search-category i{
+    padding: 0 20px;
+    border-right: 1px solid var(--border-color);
+  }
+  
+  input {
+    outline: none;
+    border: none;
+    padding-left: 20px;
+  }
+  
+  .info-account-avartar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .info-account {
+    display: flex;
+    align-items: end;
+    gap: 24px;
+    margin: 8px;
+  }
+
+  .text-up {
+    font-size: var(--font-text-xs);
+    font-weight: 400;
+    color: #515D66;
+    line-height: 13.75px;
+  }
+
+  .text-down {
+    font-size: var(--font-text-l);
+    font-weight: 600;
+    line-height: 17.5px;
+    color: var(--text-bold);
+  }
+ 
+  .wrap-notication {
+    display: flex;
+    align-items: end;
+  }
+  
+  .notication {
+    position: relative;
+  }
+  
+  .icon-header {
+    font-size: 26px;
+  }
+  
+  .notication span {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    font-size: 10px;
+    padding: 2px 6px 3px 6px;
+    border-radius: 50%;
+    background-color:var(--red-primary);
+    color: var(--text-defautl);
+  }
+  
+  .amount {
+    margin-left: 12px;
+  }
+
+  .header-last {
+    font-size: var(--font-text-l);
+    font-weight: 600;
+    margin: 3px 0;
+  }
+  
+  .menu-bottom {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .menu-item-bottom {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .menu-item-bottom p {
+    font-size: var(--font-text-l);
+    font-weight: 600;
+    line-height: 17.5px;
+  }
+  
+  .buy-uminex {
+    color: var(--red-primary);
+  }
+
+  .header-sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-sale i {
+    color: var(--red-primary);
+    margin-right: 9px;
+    font-size: 23px;
+  }
+
+  .header-sale span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--text-bold);
+  }
+  
+    
