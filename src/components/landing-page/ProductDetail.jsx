@@ -9,6 +9,8 @@ const ProductDetail = ({ item }) => {
         <div className="img-products">
           <img
             loading="lazy"
+            width={"185"}
+            height={"185"}
             src={require(`../../imgs/product/${item.image}`)}
             alt=""
           />

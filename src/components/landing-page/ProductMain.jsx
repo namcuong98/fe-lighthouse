@@ -56,7 +56,7 @@ const ProductMain = () => {
       <div className="product-main">
         <p className="hr product-main-today">TODAY'S OFFER</p>
         <div className="wrap-img-products">
-          <div className="img-products">
+          <div className="img-products main">
             <img
               loading="lazy"
               src={require(`../../imgs/product/${item.image}`)}

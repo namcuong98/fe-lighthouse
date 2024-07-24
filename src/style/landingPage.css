@@ -35,6 +35,8 @@
   background-repeat: no-repeat  ;
   position: relative;
   width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
   height: calc(100vw * 557/1920);
   max-height: 410px;
 }
@@ -42,21 +44,22 @@
 .banner-info {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 29%;
   transform: translate(-50%, -50%);
   color: var(--text-defautl);
 }
 
 .banner-big-info-game {
   color: #FDE50B;
-  font-size: 14px;
-  margin-bottom: 30px;
+  font-size: var(--font-text-sm);
+  margin-bottom: 20px;
   font-weight: 700;
 }
 
 .banner-big-info-offer {
   font-size: 46px;
   font-weight: 600;
+  line-height: 50px;
   margin-bottom: 30px;
 }
 
@@ -65,7 +68,7 @@
 }
 
 .banner-info button {
-  padding: 14px 42px;
+  padding: 15px 43.44px;
   border-radius: 30px;
   font-size: 12px;
   font-weight: 700;
@@ -74,7 +77,7 @@
 }
 
 .products {
-  margin: 60px 0;
+  margin: 60px 0 48px 0;
 }
 
 .grid {
@@ -86,7 +89,7 @@
 .h-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid responsive với các cột có chiều rộng tối thiểu 200px */
-  gap: 10px; /* Khoảng cách giữa các ô */
+  gap: 5px; /* Khoảng cách giữa các ô */
 }
 
 .grid-item {
@@ -102,17 +105,6 @@
   object-fit: cover; /* Đảm bảo ảnh phù hợp với kích thước khung hình */
   max-width: 462px; /* Kích thước tối đa của mỗi ảnh */
 }
-/* 
-.grid-item {
-  position: relative;
-  border: 4px solid transparent;
-}
-
-.grid-item img {
-  height: 100%;
-  border-radius: 6px;
-  width: clamp(8vh, 100vw, 100%);
-} */
 
 .banner-small-info {
   color: var(--text-darker);
@@ -139,7 +131,7 @@
   padding: 20px;
   font-size: var(--font-text-l);
   background: var(--text-defautl);
-  margin: 5px;
+  margin: 2.5px;
 }
 
 .product-name {
@@ -155,6 +147,8 @@
 
 .product-rate i {
   font-size: var(--font-text-sm);
+  line-height: 12px;
+  line-height: 22px;
   color: #FFB800;
   text-align: center;
 }
@@ -175,7 +169,8 @@
 }
 
 .product-price span {
-  font-size: var(--font-text-defalult);
+  font-size: var(--font-text-l);
+  line-height: 17px;
   color: #8D979E;
   font-weight: 400;
 }
@@ -184,7 +179,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .product-quality-many {
@@ -236,15 +231,26 @@
   position: relative;
 }
 
+.img-products {
+  text-align: center;
+}
+
 .img-products img {
   width: 100%;
+  height: auto;
+  max-width: 185px;
+}
+
+.img-products.main img {
+  width: 100%;
+  max-width: 600px !important; 
 }
 
 .discountPercent {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
+  left: 2px;
   padding: 5px 10px;
   color: var(--text-defautl);
   border-radius: 2px;
@@ -268,7 +274,9 @@
 .product-main-today {
   font-weight: 700;
   padding-bottom: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .flastSale {
@@ -285,7 +293,7 @@
 #timer {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 #timer span {
@@ -294,7 +302,7 @@
 }
 
 #timer p {
-  padding: 16px 10px;
+  padding: 16px 20px;
   min-width: 46px;
   text-align: center;
   border-radius: 4px;
@@ -314,7 +322,7 @@
 .time-bar {
   content: '';
   position: absolute;
-  width: 70%;
+  width: 86%;
   height: 6px;
   top: 0;
   left: 0;
@@ -325,7 +333,7 @@
   display: flex; 
   align-items: center;
   gap: 6px;
-  margin-top: 10px;
+  margin-top: 4px;
   font-size: var(--font-text-defalult);
 }
 

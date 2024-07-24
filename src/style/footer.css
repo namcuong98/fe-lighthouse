@@ -12,7 +12,7 @@
 
 .wrap-footer {
     width: 100%;
-    margin: 50px 0;
+    margin: 48px 0;
 }
 
 .wrap-footer h1 {
@@ -23,10 +23,11 @@
 }
 
 .about-store span {
-  font-size: var(--font-text-defalult);
+  font-size: var(--font-text-l);
   font-weight: 500;
   color: var(--text-footer-color-default);
-  margin-bottom: 6px;
+  padding-bottom: 7px;
+  line-height: 17.5px;
 }
 
 .number-call {
@@ -34,10 +35,11 @@
   font-weight: 500;
   color: #2B38D1;
   margin-bottom: 20px;
+  line-height: 37.5px;
 }
 
 .store-address p {
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   font-size: var(--font-text-defalult);
   font-weight: 500;
   color: var(--text-footer-color-default);
@@ -47,14 +49,15 @@
   font-size: var(--font-text-defalult);
   font-weight: 500;
   color: var(--text-footer-color-default);
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .newsletter span {
   font-size: var(--font-text-defalult);
+  line-height: 17.5px;
   font-weight: 500;
   color: var(--text-footer-color-default);
-  padding-bottom: 20px;
+  padding-bottom: 24px;
 }
 
 .input-email {
@@ -92,13 +95,14 @@
 }
 
 .copyright {
-  font-size: var(--font-text-defalult);
+  padding: 24px 0;
+  font-size: var(--font-text-l);
   font-weight: 400;
   color: var(--text-footer-color-default);
 }
 
 .copyright span {
-  font-size: var(--font-text-defalult);
+  font-size: var(--font-text-l);
   font-weight: 500;
   color: #2B38D1;
 }
@@ -112,7 +116,7 @@
 
 .wrap-payment p {
   margin-right: 14px;
-  font-size: var(--font-text-defalult);
+  font-size: var(--font-text-l);
   font-weight: 500;
   color: var(--text-footer-color-default);
 }

@@ -9,8 +9,9 @@ const HeaderSecond = () => {
     <div className="hr">
       <div className="container header-second">
         <img
-          srcSet={`${require("../../imgs/logo/Logo.webp")} 142w`}
-          sizes="(max-width: 700px) 100px, (max-width: 1100px) 120px, 142px"
+          id="logo"
+          width={"142"}
+          height={"44"}
           src={require("../../imgs/logo/Logo.webp")}
           alt="Logo"
         />

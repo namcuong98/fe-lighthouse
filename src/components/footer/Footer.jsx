@@ -34,6 +34,8 @@ const Footer = () => {
                 <div className="payment" key={item.id}>
                   <img
                     loading="lazy"
+                    width={"43"}
+                    height={"22"}
                     src={require(`../../imgs/payment/${item.image}`)}
                     alt=""
                   />

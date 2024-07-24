@@ -29,16 +29,12 @@ const Banner = () => {
               <div className="grid-item" key={item.id}>
                 <img
                   loading="lazy"
+                  width={"462"}
+                  height={"200"}
                   className=""
                   src={require(`../../imgs/banner/banner-${item.id}.webp`)}
                   alt=""
                 />
-                {/* <img
-                  srcSet={`${require(`../../imgs/banner/banner-${item.id}.webp`)} 446w`}
-                  sizes="(max-width: 700px) 100px, (max-width: 1100px) 120px, 446px"
-                  src={require(`../../imgs/banner/banner-${item.id}.webp`)}
-                  alt="Logo"
-                /> */}
                 <div className="banner-info">
                   <div className="banner-small-info">
                     <p>{item.title}</p>

@@ -29,6 +29,16 @@
     width: 100%;
   }
   
+  #logo {
+    width: 100px;
+    height: auto;
+
+    @media screen and (min-width: 700px) {
+      width: 142px;
+      height: 44px;
+    }
+  }
+
   .flex {
     display: flex;
     align-items: center;
@@ -91,7 +101,6 @@
   .header-first-distance {
     margin-right: 2px;
     font-size: var(--font-text-defalult);
-    /* font-family: Bai Jamjuree; */
     font-weight: 500;
     line-height: 16.25px;
   }
