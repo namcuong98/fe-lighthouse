@@ -362,7 +362,8 @@
 #timer p {
   padding: 16px 20px;
   min-width: 46px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   border-radius: 4px;
   background-color: var(--red-primary);
   color: var(--text-defautl);
