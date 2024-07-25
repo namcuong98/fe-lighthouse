@@ -3,7 +3,7 @@ import { banner_small } from "../HardData";
 import { useResponsiveHeader } from "../../utils/responsive/Responsive";
 
 const Banner = () => {
-  const { Header_800 } = useResponsiveHeader();
+  const { Header_800, Header_610 } = useResponsiveHeader();
   return (
     <div className="wrap-banner">
       <div
@@ -12,6 +12,18 @@ const Banner = () => {
           backgroundImage: `url(${require("../../imgs/banner/banner-1.webp")})`,
         }}
       >
+        <div
+          className={`transfer-banners ${
+            !Header_610 && "transfer-banners-rps"
+          }`}
+        >
+          <p className="back">
+            <i className="fa-solid fa-angle-left"></i>
+          </p>
+          <p className="next">
+            <i className="fa-solid fa-angle-right"></i>
+          </p>
+        </div>
         <div className="banner-info">
           <p className="banner-big-info-game">GAMEPAGD CONSOLE</p>
           {Header_800 && (

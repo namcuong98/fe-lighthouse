@@ -2,6 +2,7 @@
   --border-color: #E5E8EC;
   --text-defautl: #FFFFFF;
   --red-primary: #3340cf;
+  --text-bold: #212529;
   --font-text-sm: 12px;
   --font-text-defalult: 13px;
   --font-text-l: 14px;
@@ -39,6 +40,36 @@
   border-radius: 5px;
   height: calc(100vw * 557/1920);
   max-height: 410px;
+}
+
+.transfer-banners {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transfer-banners i {
+  margin: 0 30px;
+  padding: 17px 20px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--text-defautl);
+}
+
+.transfer-banners-rps i {
+  margin: 0 6px !important;
+  padding: 7px 10px !important;
+}
+
+.transfer-banners i:hover {
+  background-color: var(--text-defautl);
+  color: var(--text-bold);
 }
 
 .banner-info {
