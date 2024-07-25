@@ -18,7 +18,7 @@ const HeaderLast = () => {
           })}
           {Header_medium && (
             <>
-              <li>Contact US</li>
+              <li className="contact-us">Contact US</li>
               <li className="buy-uminex">Buy Uminex!</li>
             </>
           )}

@@ -59,6 +59,8 @@ const ProductMain = () => {
           <div className="img-products main">
             <img
               loading="lazy"
+              width={"600"}
+              height={"600"}
               src={require(`../../imgs/product/${item.image}`)}
               alt=""
             />
@@ -74,6 +76,9 @@ const ProductMain = () => {
               {item.discountPercent}
             </p>
           )}
+          <div className="buy-main">
+            <img src={require("../../imgs/product/buy-main.png")} alt="" />
+          </div>
         </div>
         <p className="product-name">{item.name}</p>
         <div className="flex product-rate">

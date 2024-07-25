@@ -30,6 +30,7 @@
   }
   
   #logo {
+    cursor: pointer;
     width: 100px;
     height: auto;
 
@@ -199,6 +200,7 @@
   }
   
   .icon-header {
+    cursor: pointer;
     font-size: 26px;
   }
   
@@ -236,6 +238,7 @@
   }
   
   .menu-item-bottom {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -245,6 +248,10 @@
     font-size: var(--font-text-l);
     font-weight: 600;
     line-height: 17.5px;
+  }
+
+  .contact-us {
+    cursor: pointer;
   }
   
   .buy-uminex {

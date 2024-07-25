@@ -50,6 +50,7 @@
   font-weight: 500;
   color: var(--text-footer-color-default);
   margin-bottom: 14px;
+  cursor: pointer;
 }
 
 .newsletter span {
@@ -86,6 +87,7 @@
   font-weight: 700;
   background: #2B38D1;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .space-top {
@@ -133,4 +135,5 @@
 .payment img {
   width: 100%;
   padding: 4px;
+  cursor: pointer;
 }
